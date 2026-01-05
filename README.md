@@ -44,7 +44,9 @@ On vise à travers la réalisation de ce projet :
 
 ---
 
-## Rendu 
+### Usage
 
-1.  **Présentation des résultats expérimentaux sous forme de tableau**, avec un commentaire faisant le lien entre les résultats et les objectifs pédagogiques du projet, amenant au choix de la meilleure option pour bâtir le système: un document PDF. 
-2.  **Le code réalisant ces expériences**: un notebook ipynb commenté. 
+To run the code in this repository, you will need to create a Python environment with the dependencies specified in the `pyproject.toml`.
+You can do so by installing `uv` (instructions [here](https://docs.astral.sh/uv/getting-started/installation/#standalone-installer)) and running `uv sync` in the repository root.
+
+You can then run the notebooks using Jupyter or serve the markdown documents using `myst start`.
